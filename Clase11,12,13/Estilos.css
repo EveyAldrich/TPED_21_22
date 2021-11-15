@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    text-align: center; 
+    width: 95%;
+    padding: 20px; 
+}
+
+figure{
+    text-align: center; 
+    width: 33%;
+    padding: 20px;
+    background: black;
+    color: rgb(187, 187, 187);
+    font-family: monospace;
+}
+
+body {
+    text-align: center;
+    background-image:url(https://cdn.wallpapersafari.com/37/42/TgZwJt.jpg);
+}
+
+header{
+    color:black;
+    font-size: xx-large;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div{ 
+    width: 100%;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    padding: 15px;
+}
+
+figcaption{
+    padding-top: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: blur(5px);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
