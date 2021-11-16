@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+  }
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 5;
+}
+
+h1 {
+    font-family:Verdana;
+    font-weight:normal;
+    line-height: 170%;
+    font-size: medium;
+}
+
+p {
+    font-family:Verdana;
+    font-weight: lighter; 
+    line-height: 180%;
+    font-size: x-small;
+}
+
+h6 {
+    font-family: Verdana; 
+    color: rgb(124, 124, 124); 
+    font-weight: normal; 
+    line-height: 5%;
+    font-size: xx-small;
+}
+
+dl {
+    font-family: Verdana; 
+    color: rgb(124, 124, 124); 
+    font-weight: normal; 
+    line-height: 195%;
+    font-size: small;
+}
+
+#cabecera {
+    font-family:Verdana;
+    font-weight:normal;
+    line-height: 170%;
+    font-size: medium;
+    color: white;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#centro {
+
+}
+
+#pie {
+
+}
+
+a.extra:hover{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+a.one:link {color: white;}
+a.one:visited {color: white;}
+a.one:link {text-decoration: none;}
+a.one:visited {text-decoration: none;}
+
+a.two:link {color: rgb(124, 124, 124);}
+a.two:visited {color: rgb(124, 124, 124);}
+a.two:link {text-decoration: none;}
+a.two:hover {text-decoration: line-through;}
+a.two:visited {text-decoration: none;} 
+
+a.three:link {color: rgb(124, 124, 124);}
+a.three:visited {color: rgb(124, 124, 124);}
+a.three:link {text-decoration: none;}
+a.three:hover {text-decoration: underline; color: red;}
+a.three:visited {text-decoration: none;} 
+  
