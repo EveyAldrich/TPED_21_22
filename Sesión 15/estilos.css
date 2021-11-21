@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: #222222;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2, h3 {
+    font-weight: normal; /* le quitamos la negrita */
+}
+
+main {
+    background-image: url(imgs/fondo-1400x860.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#menuSuperior {
+    width: 33vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding-bottom: 15px;
+}
+
+#menuSuperior li {
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1em;
+    color: lightgray;
+}
+
+#iconomenu {
+    height: 2.5vh;
+    vertical-align: middle;
+}
+
+#iconolupa {
+    height: 2.5vh;
+    vertical-align: middle;
+}
+
+#iconoperfil {
+    height: 2.2vh;
+    vertical-align: middle;
+}
+
+section {
+    height: 100vh;
+    width: 25vw;
+}
+
+#izquierda {
+    margin-left: 7vw;
+    margin-right: 10vw;
+}
+
+h2 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(11, 180, 209);
+}
+
+button {
+    background-color: rgb(11, 180, 209);
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 11px;
+
+
+}
+#derecha {
+    width: 500px;
+    padding-left: 10vw;
+    margin-right: 10vw;
+    position: relative;
+}
+
+#inferiorDerecha {
+    position: absolute;
+    bottom: 0;
+}
+
+#logoAdobe {
+    width: 40px;
+}
+
+#derecha img {
+    height: 1.5em;
+    width: auto;
+}
+
+h3 {
+    margin-bottom: 0.5em;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+hr {
+   border: 1px solid black;
+   width: 530px;
+}
+#productos {
+    margin-top: 0.5em;
+    font-size: 14px;
+}
+#productos * { 
+    vertical-align: middle; 
+}
+
+#paleta {
+    width: 100%;
+}
