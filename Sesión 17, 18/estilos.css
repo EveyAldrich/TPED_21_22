@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Bebas+Neue&family=Dancing+Script&family=Inconsolata:wght@900&family=M+PLUS+1+Code:wght@300&family=Noto+Sans+JP:wght@300&family=Noto+Serif:wght@700&family=Playfair+Display:ital@1&family=Raleway:wght@100&family=Source+Code+Pro:wght@700&family=Yanone+Kaffeesatz&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    text-align: center; 
+    width: 100%;
+    padding: 20px; 
+}
+
+figure{
+    text-align: center; 
+    width: 33%;
+    padding: 20px;
+    background: rgb(92, 184, 218);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+
+body {
+    text-align: center;
+}
+
+header{
+    background-color: beige;
+    color:black;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+div{ 
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+#caja1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#caja2 {
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+#caja3 {
+    font-family: 'Playfair Display', serif;
+}
+
+#caja4 {
+    font-family: 'Inconsolata', monospace;
+}
+
+#caja5 {
+    font-family: 'Barlow', sans-serif; 
+}
+
+#caja6 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#caja7 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#caja8 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#caja9 {
+    font-family: 'Noto Serif', serif;
+}
+
+section img {
+    vertical-align: middle; 
+}
