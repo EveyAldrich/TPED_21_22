@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion{
+    height: 12vh;
+    text-align: center;
+}
+
+section{
+    height: 80vh;
+}
+
+
+footer{
+    height: 8vh;
+    background-color: blueviolet;
+}

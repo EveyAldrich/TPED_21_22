@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion{
+    height: 8vh;
+    background-color: antiquewhite;
+}
+
+section{
+    height:80vh;
+    background-color:aqua;
+}
+
+footer{
+    height: 12vh;
+    background-color:rebeccapurple;
+}
+
