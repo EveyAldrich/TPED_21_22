@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Gentium+Basic&family=Gugi&family=League+Script&family=News+Cycle&family=Oranienbaum&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CABECERA:*/
+
+#margen {
+    padding-left: 0pt;
+}
+
+#logo {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    align-content: center;
+    font-size: 40px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+li {
+    display: inline-block;;
+}
+
+.navegacion{
+    height: 10vh;
+    text-align: center;
+}
+
+#paginasmenu {
+    color: black;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 18px;
+}
+
+#cabecera{
+    height: 88vh;
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: -5;
+}
+
+
+#fotocabecera {
+    height: auto;
+    width: 99vw;
+    padding: 0%;
+    margin: 0%;
+    opacity: 90%;
+    
+}
+
+#textocentradofoto {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#anaTCF {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    line-height: 95%;
+    font-size: 50px;
+}
+
+#diseñadoraTCF {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+/*SOBREMI:*/
+
+#SOBREMIM {
+
+}
+
+#hola {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#sobremi{
+    height: 50vh;
+    
+}
+
+#textosobremi {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;   
+}
+
+#divboton {
+    padding-top: 8%;
+    text-align: center;
+
+}
+
+#botonconocememas {
+    border-radius: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    align-content: center;
+    justify-content: center;
+    border-color: transparent;
+    background-color: rgb(163, 195, 196);
+    border-width: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+
+/*TRABAJOS:*/
+
+#PORTFOLIO {
+
+}
+
+#trabajos {
+    height: 130vh;
+    width: auto;
+    z-index: -5;
+    background-image: url(imgss/fondo.jpg)
+}
+
+#titulotrabajos {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: black;
+    padding-top: 2%;
+    text-align: center;
+    height: 30vh;
+}
+
+#cajastrabajos {
+    height: 50vh;
+}
+
+#imagestrabajos {
+    height: 30vh;
+    width: auto;
+}
+
+figure{
+    text-align: center; 
+    padding: 20px;
+}
+
+figcaption {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#textotrabajos {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+
+
+/*TEXTOS*/
+
+#TEXTOS {
+
+}
+
+#espaciotextos {
+    height: 100vh;
+}
+
+#fototextos {
+    height: 50vh;
+    width: auto;
+    padding-left: 25%;
+}
+
+#aire {
+    height: 15vh;
+}
+
+#titulotextos {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: black;
+    padding-top: 2%;
+    text-align: center;
+    height: 22vh;
+}
+
+#textotextos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black; 
+    justify-content:end;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+#botontextos {
+    border-radius: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    align-content: center;
+    justify-content: center;
+    border-color: transparent;
+    background-color: rgb(163, 195, 196);
+    border-width: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+#divboton2 {
+    padding-top: 7%;
+    padding-left: 40%;
+}
+
+a.one:link {color: black;}
+a.one:visited {color: black;}
+a.one:link {text-decoration: none;}
+a.one:hover {text-decoration: underline;}
+a.one:visited {text-decoration: none;} 
+
+/*PÁGINA TEXTOS*/
+
+#fondoentradas {
+    height: 215vh;
+    width: auto;
+    z-index: -5;
+    background-image: url(imgss/fondo.jpg)
+    
+}
+
+#titulosentradas {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: black;
+    padding-top: 4%;
+    text-align: left;
+    height: 12vh;
+}
+
+#textosentradas {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black; 
+    justify-content:end;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+#menuentradas {
+    color: black;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+}
+
+#espacioentradas {
+    height:20vh;
+}
+
+#spancentrados {
+    text-align: center;
+}
+
+#fotostextosentradas{
+    padding-top: 8%;
+    padding-left: 22%;
+
+}
+
+#AVALANCHA {
+
+}
+
+#MIA {
+    padding-top: 5%;
+}
+
+
+/*CONTACTO*/
+
+#CONTACTO {
+    background-color: rgb(187, 187, 187);
+    height: 20vh;       
+    z-index: -5;
+}
+
+#cosasdecontacto {
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#fotoredessociales {
+    height: 25px;
+    width: auto;
+    padding-top: 1%;
+}
